@@ -48,9 +48,9 @@ const Drawer = ({ onClickCart, drawer, onDeleteItem }) => {
                     {card.length > 0 ? <>
                         <div className="card-wrapper">
                         {card.map(item => {
-                            return ( 
+                            return (
                                 <div className="card-item d-flex align-center">
-                                    <img className="ob-covers" src={item.imgUrl} alt="sneakers" />
+                                    <img className="ob-covers" src={item.imgUrl} alt="skirts" />
                                     <div className="card-block ml-20">
                                         <div className="card-block__title">
                                             {item.title}
