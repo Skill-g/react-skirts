@@ -5,7 +5,7 @@ import "./Products.scss";
 const Products = () => {
   const [desc, setDesc] = useState("");
   const [price, SetPrice] = useState()
-  const url = document.location.href.at(-1);
+  const url: any = document.location.href.at(-1);
 
   useEffect(() => {
     axios.get("https://65f99361df151452461201d9.mockapi.io/skirt/skirts")

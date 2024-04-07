@@ -27,7 +27,7 @@ const Cart = ({ title, price, imgUrl, id, onAddItem, onAddFavorite }) => {
       <a href={"product/" + id}>
         {" "}
         <img
-          src={imgUrl + id + ".jpeg"}
+          src={imgUrl}
           alt="skirt"
           className="cart-img m-auto"
         />{" "}
